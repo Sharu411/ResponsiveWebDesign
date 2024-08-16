@@ -1,0 +1,60 @@
+*{
+  font-size:20px;
+}
+body{
+ background-color:rgba(211, 211, 211, 0.564);
+}
+.head{
+  background:linear-gradient(to right,white,grey,white,grey,white);
+  padding:20px;
+  text-align:center;
+  border-radius:20px;
+  box-shadow:5px 5px 10px rgba(250,250,250,.2); 
+}
+#title{
+font-size:45px;
+}
+#img-div{
+  background-color:white;
+  padding:40px;
+  text-align:center;
+  align-items:center;
+  justify-content:center;
+}
+#img-div img{
+  max-width:100%;
+  height:auto;
+  position:center;
+  display:block;
+  width:100%;
+  border-radius:20px;
+}
+table,th, td{
+  border:2px solid;
+  text-align:center;
+  padding:20px;
+}
+table{
+  width:100%;
+  border-collapse: collapse;
+  position:center;
+}
+.quotes{
+  text-align:center;
+}
+.award{
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+.award h1{
+  font-size:30px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:hover {background-color:grey;}
+.wiki{
+  text-align:center;
+}
+footer{
+  text-align:center;
+}
