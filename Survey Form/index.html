@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SURVEY FORM</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+        <div class="inside">
+    <header id="header">
+        <h1 id="title">Students Survey Form</h1>
+        <p id="description">Students those are willing to build a projects</p>
+    </header>
+    <main id="main">
+        <div class="form1">
+            <form id="survey-form">
+                <div class="fi">
+                    <label id="name-label">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" class="inline"height="3px" weight="10px" required /><br />
+                </div>
+                <div class="fi">
+                    <label id="email-label">Email</label>
+                    <input id="email" type="email" class="inline"placeholder="Your Email ID" required /><br />
+                </div>
+                <div class="fi">
+                    <label id="number-label">Age</label>
+                    <input type="number" class="inline"id="number" min="17" max="28" placeholder="Your Age" /><br />
+                </div>
+                <div class="fi">
+                    <label id="course">Branch</label>
+                    <select id="dropdown">
+                        <option>!** Select Course **!</option>
+                        <option>Computer Science and Engineering</option>
+                        <option>Electrical communication Engineering</option>
+                        <option>Civil Engineering</option>
+                        <option>Mechanical Engineering</option>
+                    </select><br />
+                </div>
+                <fieldset class="fl">
+                    <legend>
+                        <label id="location">Location</label>
+                    </legend>
+                    <input type="radio" class="inline"name="location" value="dayscholar">Dayscholar
+                    <input type="radio" class="inline"name="location" value="hostal">Hostal<br />
+                </fieldset>
+                <fieldset class="fl">
+                    <legend><label id="skills">Skills</label></legend>
+                    <input type="checkbox" class="inline"value="programming"> Programming skill
+                    <input type="checkbox" class="inline"value="arduino">Arduino
+                    <input type="checkbox" class="inline"value="problemsolving">Problem Solving
+                </fieldset>
+                <div class="fi">
+                    <label id="address">Address</label>
+                    <textarea>Enter your address:</textarea><br />
+                </div>
+                <br/>
+                <br/>
+                 <div class="fi">
+                    <label id="prject">Project Domain</label>
+                    <select id="dropdown">
+                        <option>!** Select Project domain **!</option>
+                        <option>Internet of Things</option>
+                        <option>Data Science</option>
+                        <option>Autocad</option>
+                        <option>Artificial intelligent and machine learning</option>
+                    </select><br />
+                </div>
+                <center><button id="submit" height="10" weight="25" >Submit</button></center>
+            </form>
+        </div>
+    </main>
+    <footer id="footer">@By use of <strong>Responsive web Design Certification</strong>:<a
+            href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form">freecodecamp</a>
+    </footer>
+</body>
+
+</html>
